@@ -1,7 +1,7 @@
 {
-  "name": "@turbowarp/json",
+  "name": "sidekick-json",
   "version": "0.1.2",
-  "description": " Parse and stringify non-standards-compliant JSON",
+  "description": " Parse and stringify non-standards-compliant JSON; version customized for Sidekick.",
   "main": "./lib/cjs.cjs",
   "module": "./src/index.js",
   "types": "./index.d.ts",
@@ -12,13 +12,13 @@
     "prepublish": "rollup -c",
     "benchmark": "node benchmark/benchmark.js"
   },
-  "author": "GarboMuffin",
+  "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TurboWarp/json.git"
+    "url": "git+https://github.com/Menersar/sidekick-json.git"
   },
   "bugs": {
-    "url": "https://github.com/TurboWarp/json/issues"
+    "url": "https://github.com/Menersar/sidekick-json/issues"
   },
   "devDependencies": {
     "rollup": "^2.78.0",
