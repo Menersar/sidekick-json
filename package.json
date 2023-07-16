@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "test": "vitest run",
-    "prepublish": "rollup -c",
+    "prepublishOnly": "rollup -c",
     "benchmark": "node benchmark/benchmark.js"
   },
   "author": "",
