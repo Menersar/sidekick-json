@@ -1,7 +1,7 @@
 {
   "name": "sidekick-json",
   "version": "0.1.2",
-  "description": " Parse and stringify non-standards-compliant JSON; version customized for Sidekick.",
+  "description": "Parse and stringify non-standards-compliant JSON; version customized for Sidekick.",
   "main": "./lib/cjs.cjs",
   "module": "./src/index.js",
   "types": "./index.d.ts",

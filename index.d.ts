@@ -1,4 +1,4 @@
-declare module '@turbowarp/json' {
+declare module 'sidekick-json' {
   /**
    * Parse a JSON object like JSON.parse()
    * Attempts to use JSON.parse first, falling back to our custom parser if the the native parser fails.
