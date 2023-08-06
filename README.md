@@ -1,4 +1,4 @@
-# @turbowarp/json
+# sidekick-json
 
 This library is intended to parse and stringify non-standards-compliant JSON:
 
@@ -10,18 +10,18 @@ This library is intended to parse and stringify non-standards-compliant JSON:
 Install from npm:
 
 ```bash
-npm install @turbowarp/json
+npm install https://github.com/Menersar/sidekick-json
 ```
 
 Then pick your favorite way to import it:
 
 ```js
-import {parse, stringify} from '@turbowarp/json';
-import * as ExtendedJSON from '@turbowarp/json';
-const ExtendedJSON = require('@turbowarp/json');
+import {parse, stringify} from 'sidekick-json';
+import * as ExtendedJSON from 'sidekick-json';
+const ExtendedJSON = require('sidekick-json');
 ```
 
-Note that there is no `default` export, so `import ExtendedJSON from '@turbowarp/json';` might not work.
+Note that there is no `default` export, so `import ExtendedJSON from 'sidekick-json';` might not work.
 
 parse() parses a JSON string. It will first try to use JSON.parse, and falls back to our custom JSON parser if that fails. JSON.parse's reviver argument is not supported.
 
