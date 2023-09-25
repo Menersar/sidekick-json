@@ -10,6 +10,7 @@
   "scripts": {
     "test": "vitest run",
     "prepublishOnly": "rollup -c",
+    "prepublish": "rollup -c",
     "benchmark": "node benchmark/benchmark.js",
     "prepublishOnly2": "rollup -c && tsc"
   },

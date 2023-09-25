@@ -7,6 +7,7 @@ export default {
 };
 
 
+// !!! ???
 // export default {
 //     input: {
 //         main: resolve(__dirname, './src/index.js'),
